@@ -1,21 +1,16 @@
-# Self Service Docs
+# Horus Help Center
 
-Markdown Docs with Material Theme to store and classify the IT/Software/Systems functional and technical knowledge of all the **features** developed by the development team
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+<img src="https://user-images.githubusercontent.com/3322836/178851484-28425def-fd45-4b91-b746-29158753659a.png" width="250px;"/>
 
 ## How it works?
+
 For technical details go to the official repository:
 
-https://github.com/jrichardsz-software-architect-tools/mkdocs-mod-template
+https://github.com/docs4all/docs4all
 
-## Business Unit Focused
-
-![](https://cdn.shrm.org/image/upload/c_crop%2Ch_511%2Cw_1920%2Cx_0%2Cy_0/c_fit%2Cf_auto%2Cq_auto%2Cw_1920/v1/Tools%20and%20Samples/divisional-organizational-structure_zmdil9)
-
-All of our developments is for our users. Our users belong to an area. An area belongs to a division, division to a division or business unit.
-
-This structure is focused on this kind of enterprise organizations.  
-
-## Quickly run
+## For developer
 
 Execute these commands:
 
@@ -23,10 +18,20 @@ Execute these commands:
 - npm run dev (for developers)
 - npm run start (for servers)
 
+## Publish on Github Pages
+
+Execute these commands:
+
+```
+npm install
+npm run build
+export DOCS4ALL_SITE_FOLDER=docs
+git push origin master
+```
+
 ## How add docs?
 
-- just add folders grouping by products, departments and document type
-- git push
+- under markdown folder, add markdown files grouped by folders
 
 ## How to create a diagram?
 
@@ -52,11 +57,6 @@ Instead visio, draw.io, dia software, etc, we just need text plain. To do that, 
 @endwbs
 -->
 ```
-
-
-That's all.
-
-## Diagrams
 
 - Several Diagrams
   - https://plantuml.com/
